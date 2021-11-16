@@ -1,0 +1,40 @@
+    1  kubectl get roles
+    2  kubectl get roles -n kube--system
+    3  kubectl get roles -n kube-system
+    4  kubectl get roles -a
+    5  kubectl get roles -A
+    6  kubectl get roles -A | wc-l
+    7  kubectl get roles -A | wc -l
+    8  kubectl get roles -A | head -1
+    9  kubectl get roles -A | wc -l
+   10  kubect get rolebindings
+   11  kubectl get rolebindings -n kube-system
+   12  kubectl describe rolebindings kube-proxy -n kube-system
+   13  kubectl get pods
+   14  kubectl get pods --as dev-user
+   15  kubectl create role developer --namespace=default --verb=list,create,delete --resource=pods
+   16  kubectl create rolebinding dev-user-binding --namespace=default --role=developer --user=dev-user
+   17  kubectl get pods
+   18  kubectl get roles
+   19* kubectl 
+   20  kubectl get rolebinding
+   21  kubectl get role
+   22  kubectl edit role developer 
+   23  kubectl get pods -n blue
+   24  kubectl get roles -n blue
+   25  kubectl get rolebindings.rbac.authorization.k8s.io -n blue
+   26  kubectl edit role devloper -n blue 
+   27  kubectl edit role developer -n blue 
+   28  vi test.yaml
+   29  kubectl apply -f test.yaml 
+   30  kubectl get roles,rolebindings -n blue
+   31  kubectl get roles,rolebindings 
+   32  history 
+   33  history > 
+   34  git clone https://github.com/arun-s83/K8s.git
+   35  ls
+   36  cd k8s
+   37  cd K8s/
+   38  mkdir RBAC
+   39  cd RBAC
+   40  history > RBAC.txt
