@@ -1,0 +1,29 @@
+    1  kubectl version
+    2  kubectl version --short
+    3  kubectl get pods
+    4  kubectl get svc
+    5  kubectl describe svc kubernetes 
+    6  kubectl get deployments
+    7  kubectl get pods
+    8  kubectl describe deployments.apps | grep -i Image
+    9  kubectl edit deployments.apps lll
+   10  kubectl edit deployments.apps simple-webapp-deployment 
+   11  vi test.yaml
+   12  kubectl apply -f test.yaml 
+   13  vi test.yaml
+   14  kubectl apply -f test.yaml 
+   15  vi test.yaml
+   16  kubectl apply -f test.yaml 
+   17  kubectl get svc
+   18  kubectl describe svc
+   19  kubectl get pods
+   20  kubectl describe svc webapp-service 
+   21  git
+   22  git clone https://github.com/arun-s83/K8s.git
+   23  cd K8s/
+   24  ls
+   25  mkdir service
+   26  cd ..
+   27  pwd
+   28  history 
+   29  history > ./K8s/service.txt
