@@ -1,0 +1,15 @@
+    1  git clone https://github.com/kodekloudhub/kubernetes-metrics-server.git
+    2  git clone https://github.com/arun-s83/K8s.git
+    3  cd kubernetes-metrics-server
+    4  kubectl apply -f .
+    5  kubectl top pod
+    6  kubectl top node
+    7  kubectl toppod
+    8  kubectl top pod
+    9  kubectl top node
+   10  cd ~
+   11  cd K8s/
+   12  ls
+   13  mkdir Monitor
+   14  cd Monitor/
+   15  history > monitor.txt
