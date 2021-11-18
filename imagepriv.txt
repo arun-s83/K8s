@@ -1,0 +1,18 @@
+    1  kubectl create secret --help
+    2  kubectl get pods
+    3  kubectl describe pods web-bd975bd87-277jv 
+    4  kubectl describe pods web-bd975bd87-277jv  | grep image
+    5  kubectl edit deployments.apps web 
+    6  kubectl get pods
+    7  kubectl create secret docker-registry private-reg-cred --docker-username=dock_user --docker-password=dock_password --docker-server=myprivateregistry.com:5000 --docker-email=dock_user@myprivateregistry.com
+    8  kubectl get pods
+    9  kubectl edit deployments.apps web 
+   10  kubectl get pods
+   11  kubectl get secrets 
+   12  kubectl edit deployments.apps web 
+   13  git clone https://github.com/arun-s83/K8s.git
+   14  ls
+   15  cd K8s/
+   16  ls
+   17  mkdir imagepriv
+   18  history > imagepriv.txt
