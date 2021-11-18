@@ -1,0 +1,40 @@
+    1  kubectl get daemonsets.apps 
+    2  kubectl get daemonsets.apps -A
+    3  kubectl get daemonsets.apps -all-namespaces
+    4  kubectl get daemonsets --all-namespaces
+    5  kubectl get daemonsets A-A
+    6  kubectl get daemonsets -A
+    7  kubectl get nodes
+    8  kubectl get nodes -o wide
+    9  kubectl describe daemonset kube-proxy --namespace=kube-system
+   10  git clone https://github.com/arun-s83/K8s.git
+   11  cd K8s/
+   12  kubectl get pods -n kube-system 
+   13  kubectl describe pods kube-flannel-ds-kbpq9 -n kube-system 
+   14  kubectl describe pods kube-flannel-ds-kbpq9 -n kube-system | grep -i image
+   15  vi daemonset.yaml
+   16  ls
+   17  cd K8s/
+   18  ls
+   19  mkdir Daemonset
+   20  cd Daemonset/
+   21  ls
+   22  history 
+   23  ls
+   24  cd ..
+   25  ls
+   26  cd Daemonset/
+   27  vi daemonset.yaml
+   28  kubectl apply -f daemonset.yaml 
+   29  vi daemonset.yaml 
+   30  kubectl apply -f daemonset.yaml 
+   31  vi daemonset.yaml 
+   32  kubectl apply -f daemonset.yaml 
+   33  ls
+   34  rm daemonset.yaml 
+   35  vi daemonset.yaml
+   36  kubectl apply -f daemonset.yaml 
+   37  kubectl ger pods -A
+   38  kubectl get pods -A
+   39  ls
+   40  history > daemonset.txt
