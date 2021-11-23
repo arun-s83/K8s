@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: ubuntu-sleeper
+spec:
+  securityContext:
+      runAsUser: 1010
+  containers:
+     - image: ubuntu
+       name: ubuntu-sleeper
+       command: ["sleep" ,"4800"]
+       securityContext:
+         capabilities:
+           add: ["SYS_TIME", "NET_ADMIN"]

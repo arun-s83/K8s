@@ -1,0 +1,37 @@
+    1  kubectl get pods
+    2  kubectl get pods ubuntu-sleeper -o ymal
+    3  kubectl get pods ubuntu-sleeper -o yaml
+    4  kubectl exec ubuntu-sleeper --whoami
+    5  kubectl exec ubuntu-sleeper -- whoami
+    6  kubectl get pods
+    7  kubectl delete pods ubuntu-sleeper 
+    8  vi pod.yaml
+    9  kubectl apply -f pod.yaml 
+   10  vi pod.yaml
+   11  kubectl apply -f pod.yaml 
+   12  vi pod.yaml
+   13  kubectl apply -f pod.yaml 
+   14  vi pod.yaml
+   15  kubectl apply -f pod.yaml 
+   16  kubectl get pods
+   17  vi pod.yaml
+   18  kubectl exec -it ubuntu-sleeper -- bash
+   19  kubectl exec -it ubuntu-sleeper -- /bin/sh
+   20  kubectl exec ubuntu-sleeper -- whoami
+   21  kubectl get pods
+   22  ls
+   23  cat multi-pod.yaml 
+   24  git clone https://github.com/arun-s83/K8s.git
+   25  vi pod.yaml 
+   26  kubectl get pods
+   27  kubectl delete pod ubuntu-sleeper 
+   28  kubectl get pods
+   29  kubectl apply -f pod.yaml 
+   30  vi pod.yaml 
+   31  kubectl apply -f pod.yaml 
+   32  vi pod.yaml 
+   33  cd K8s/
+   34  ls
+   35  mkdir securitycontext
+   36  cd securitycontext/
+   37  history > securitycontext.txt
