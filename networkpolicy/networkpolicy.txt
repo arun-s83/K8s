@@ -1,0 +1,15 @@
+    1  kubectl get networkpolicies.networking.k8s.io payroll-policy 
+    2  kubectl get networkpolicies.networking.k8s.io
+    3  kubectl get pods
+    4  kubectl get pods --show-labels 
+    5  kubectl describe networkpolicies.networking.k8s.io payroll-policy 
+    6  history 
+    7  vi nwpolicy.yaml
+    8  git clone 
+    9  git clone https://github.com/arun-s83/K8s.git
+   10  cdK
+   11  cd K8s/
+   12  mkdir networkpolicy
+   13  cd networkpolicy/
+   14  ls
+   15  history >networkpolicy.txt

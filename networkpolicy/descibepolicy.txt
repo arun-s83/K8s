@@ -1,0 +1,13 @@
+Name:         payroll-policy
+Namespace:    default
+Created on:   2021-11-23 20:09:42 +0000 UTC
+Labels:       <none>
+Annotations:  <none>
+Spec:
+  PodSelector:     name=payroll
+  Allowing ingress traffic:
+    To Port: 8080/TCP
+    From:
+      PodSelector: name=internal
+  Not affecting egress traffic
+  Policy Types: Ingress
