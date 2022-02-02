@@ -1,0 +1,24 @@
+    1  git clone https://github.com/arun-s83/K8s.git
+    2  ls
+    3  cd K8s
+    4  mkdir Auth_newuser
+    5  cd ..
+    6  cp akshay* K8s/Auth_newuser/
+    7  ls
+    8  cat akshay.csr
+    9  vi signin.yaml
+   10  kubectl apply -f signin.yaml 
+   11  kubectl get csr
+   12  kubectl describe csr akshay -o ymal
+   13  kubectl describe csr akshay -o yaml
+   14  kubectl get  csr akshay -o yaml
+   15  kubectl get csr
+   16  kubectl certificate approve akshay.
+   17  kubectl certificate approve akshay
+   18  kubectl get csr
+   19  kubectl get csr agent-smith -o yaml
+   20  kubectl get csr
+   21  kubectl certificate deny agent-smith
+   22  kubectl get csr
+   23  history 
+   24  history > auth.txt
