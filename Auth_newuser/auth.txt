@@ -22,3 +22,24 @@
    22  kubectl get csr
    23  history 
    24  history > auth.txt
+   25  ls
+   26  cp signin.yaml K8s/Auth_newuser/
+   27  cp auth.txt K8s/Auth_newuser/
+   28  cd K8s/Auth_newuser/
+   29  ls
+   30  git add .
+   31  git commit -m"Auth_newuser"
+   32  git config --global shanarun83@gmail.com
+   33  git config --global "shanarun83@gmail.com"
+   34  git config --global user.email "shanarun83@gmail.com"
+   35  git config --global user.name "arun-s83"
+   36  git commit -m"Auth_newuser"
+   37  git add .
+   38  git push origin master 
+   39  kubectl delete csr agent-smith 
+   40  kubectl delete csr agent-smith  > auth.txt 
+   41  vi auth.txt 
+   42  ls
+   43  cat auth.txt 
+   44  history 
+   45  history > auth.txt 
