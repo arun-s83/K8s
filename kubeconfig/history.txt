@@ -1,0 +1,31 @@
+    1  ls
+    2  cat my-kube-config 
+    3  cd .kube/
+    4  ls
+    5  vi config
+    6  ls
+    7  kubectl get pods
+    8  kubectl run nginx --image=nginx
+    9  kubectl get pods
+   10  ls
+   11  cd /etc/kubernetes/
+   12  ls
+   13  cd pki/
+   14  ls
+   15  ls -l
+   16  cd users/
+   17  ls
+   18  cp -R aws-user/  /root/K8s/kubeconfig/
+   19  cp -R .  /root/K8s/kubeconfig/
+   20  cd /root/K8s/kubeconfig/
+   21  ls
+   22  git add .
+   23  git commit
+   24  git config --global "shanarun83@gmail.com"
+   25  git config --global user.email "shanarun83@gmail.com"
+   26  git config --global user.name arun-s83
+   27  git commit . -m "kubeconfig'
+   28  git commit  -m "kubeconfig"
+   29  git push origin master 
+   30  ls
+   31  history > history.txt
