@@ -1,0 +1,34 @@
+ 1  kubectl create secret 
+    2  kubectl getpods
+    3  kubectl get pods
+    4  kubectl describe pods web-bd975bd87-g7v6v 
+    5  kubectl edit deployments.apps 
+    6  kubectl get pods
+    7  kubectl create secret docker-registry private-reg-cred --docker-username=dock_user --docker-password=dock_password --docker-server=myprivateregistry.com:5000 --docker-email=dock_user@myprivateregistry.com
+    8  kubectl get pods
+    9  kubectl get secrets 
+   10  kubectl describe secrets private-reg-cred 
+   11  kubectl get deployments.apps 
+   12  kubectl edit deployments.apps web
+   13  kubectl get deployments.apps 
+   14  kubectl get pods
+   15  kubectl get deployments.apps web -o yaml >test.yaml
+   16  vi test.yaml 
+   17  kubectl delete deployments.apps web
+   18  kubectl apply -ftes
+   19  kubectl apply -f test.yaml 
+   20  kubectl get pods
+   21  history 
+   
+   
+   
+   apiVersion: v1
+kind: Pod
+metadata:
+  name: private-reg
+spec:
+  containers:
+  - name: private-reg-container
+    image: <your-private-image>
+  imagePullSecrets:
+  - name: private-reg-cred
