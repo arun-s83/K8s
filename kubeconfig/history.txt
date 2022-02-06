@@ -29,3 +29,8 @@
    29  git push origin master 
    30  ls
    31  history > history.txt
+   kubectl config --kubeconfig=/root/my-kube-config current-context
+   12  kubectl config --kubeconfig=/root/my-kube-config use-context research 
+   
+   kubectl config current-context
+   kubectl config current-context
