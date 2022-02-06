@@ -56,6 +56,12 @@ roleRef:
   
   
   Cluster Role
+  ---------------
+  
+  
+  kubectl auth can-i list nodes --as michelle
+  
+  
   
   kind: ClusterRole
 apiVersion: rbac.authorization.k8s.io/v1
