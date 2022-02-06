@@ -1,0 +1,33 @@
+ 1  kubectl get serviceaccounts 
+    2  kubectl describe serviceaccounts default 
+    3  kubectl get pods
+    4  kubectl get deployments.apps | grep Image
+    5  kubectl describe deployments.apps | grep Image
+    6  kubectl get pods
+    7  kubectl get pods,service
+    8  kubectl get pods,service,configmap
+    9  kubectl get pods
+   10  kubectl describe pods web
+   11  kubectl get serviceaccount
+   12  kubectl create serviceaccount dashboard-sa
+   13  cd /var/
+   14  ls
+   15  cd rbac/
+   16  ls
+   17  ls -l
+   18  cat dashboard-sa-role-binding.yaml 
+   19  kubectl get sa
+   20  kubectl describe sa dashboard-sa 
+   21  kubectl get secrets 
+   22  kubectl describe secrets dashboard-sa-token-sgzlf
+   23  ls
+   24  kubectl get deployments.apps 
+   25* 
+   26  kubectl describe deployments.apps web-dashboard 
+   27  kubectl edit deployments.apps web-dashboard 
+   28  kubectl get pods
+   29  history 
+   30  kubectl get secrets 
+   31  kubectl describe secrets dashboard-sa-token-sgzlf 
+   32  kubectl get pods
+   33  history 
